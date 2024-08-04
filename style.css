@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+   
+}
+
+body {
+    background-image: url(pexels-pixabay-206359.jpg);
+    background-position: center center;
+    background-repeat:no-repeat ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:lightpink;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    font-size: 26px;
+    padding: 0.5rem 1.5rem;
+    margin-inline: 1rem;
+    width: 120px;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(26, 33, 48, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+li {
+    font-size: 2rem;
+    margin: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 27px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+
+.timer {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+
+.laps::-webkit-scrollbar {
+    width: 8px;
+}
+
+.laps::-webkit-scrollbar-track {
+    background: rgb(241, 241, 241);
+    border-radius: 25px;
+}
+
+.laps::-webkit-scrollbar-thumb {
+    background: rgb(70, 88, 130);
+    border-radius: 25px;
+}
+
+.laps::-webkit-scrollbar-thumb:hover {
+    background: rgb(39, 49, 72);
+}
